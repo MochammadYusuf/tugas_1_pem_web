@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>My Bio</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container {
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p {
+            padding: 0;
+            margin: 0;
+        }
+        .container-1 {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            width: 500px;
+            color: #121212;
+            background-color: #ffffff;
+            padding-top: 13px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 30px;
+            border-radius: 15px;
+            text-align: justify;
+        }
+        .container-1 p {
+            margin-bottom: 30px;
+        }
+        a {
+            margin: 0;
+            color: #ffffff;
+            text-decoration: none;
+            background-color: darkmagenta;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 8px;
+        }
+        table {
+            margin-bottom: 40px;
+        }
+        .t-left {
+            width: 120px;
+            text-align: left;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .t-right{
+            padding-left: 10px;
+        }
+        .par-progress {
+            border: 2px solid #ffffff;
+            width: 60%;
+            border-radius: 50px;
+            text-align: left;
+        }
+        .cld-progress {
+            background-color: #ffffff;
+            color: #121212;
+            height: 25px;
+            text-align: right;
+            font-size: 20px;
+            border-radius: 50px;
+            padding-right: 10px;
+        }
+        .html {
+            width: 80%;
+        }
+        .css {
+            width: 70%;
+        }
+        .js {
+            width: 50%;
+        }
+        .php {
+            width: 50%;
+        }
+        .java {
+            width: 70%;
+        }
+        .vb {
+            width: 80%;
+        }
+        .query {
+            width: 75%;
+        }
+        .footer {
+            background-color: #ffffff;
+            color: #121212;
+            width: 90%;
+            border-radius: 10px 10px 0px 0px;
+            padding-top: 7px;
+            padding-bottom: 5px;
+        }
+        .footer a {
+            color: #121212;
+            background-color: #ffffff;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child">
+            <center>
+                <h1>Welcome to My Bio</h1>
+                <img src="saya.png" alt="" height="350px">
+                <div class="container-1">
+                    <p>Haiii!!! Nama Saya <b>Mochammad Yusuf Pratama</b> berasal dari Surabaya, Jawa Timur.
+                    Namun lahir saya di Malang tepatnya 30 November 2002.
+                    Jadi kira - kira sekarang umur saya adalah 20 Tahun.
+                    </p>
+                    <a href="#">Detail >></a>
+                </div>
+                <h2>Detail Informasi Saya</h2>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td class="t-left">Nama</td>
+                        <td>:</td>
+                        <td class="
+                        t-right">Mochammad Yusuf Pratama</td>
+                    </tr>
+                    <tr style="border-style: solid #fff;">
+                        <td class="t-left">NPM</td>
+                        <td>:</td>
+                        <td class="
+                        t-right">21082010063</td>
+                    </tr>
+                    <tr>
+                        <td class="t-left">Jurusan</td>
+                        <td>:</td>
+                        <td class="
+                        t-right">Sistem Informasi</td>
+                    </tr>
+                    <tr>
+                        <td class="t-left">Fakultas</td>
+                        <td>:</td>
+                        <td class="
+                        t-right">Ilmu Komputer</td>
+                    </tr>
+                    <tr>
+                        <td class="t-left">TTL</td>
+                        <td>:</td>
+                        <td class="
+                        t-right">Malang, 30 November 2002</td>
+                    </tr>
+                    <tr>
+                        <td class="t-left">Alamat</td>
+                        <td>:</td>
+                        <td class="
+                        t-right">Jl. Gubeng Jaya Langgar No. 16, Surabaya</td>
+                    </tr>
+                </table>    
+            </center>
+            <h2><center>My Progress Bar About Code</center></h2>
+            <center><div style="margin-bottom: 50px;">
+                <div id="progress">
+                    <h4>HTML</h4>
+                    <div class="par-progress">
+                        <div class="cld-progress html">80%</div>
+                    </div>
+                </div>
+                <div id="progress">
+                    <h4>CSS</h4>
+                    <div class="par-progress">
+                        <div class="cld-progress css">70%</div>
+                    </div>
+                </div>
+                <div id="progress">
+                    <h4>Javascript</h4>
+                    <div class="par-progress">
+                        <div class="cld-progress js">50%</div>
+                    </div>
+                </div>
+                <div id="progress">
+                    <h4>PHP</h4>
+                    <div class="par-progress">
+                        <div class="cld-progress php">50%</div>
+                    </div>
+                </div>
+                <div id="progress">
+                    <h4>Java</h4>
+                    <div class="par-progress">
+                        <div class="cld-progress java">70%</div>
+                    </div>
+                </div>
+                <div id="progress">
+                    <h4>Visual Basic</h4>
+                    <div class="par-progress">
+                        <div class="cld-progress vb">80%</div>
+                    </div>
+                </div>
+                <div id="progress">
+                    <h4>Query</h4>
+                    <div class="par-progress">
+                        <div class="cld-progress query">75%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">Credit By <a href="https://www.instagram.com/mochammadyusufpratama/">@mochammadyusufpratama</a></div>
+        </center>
+        </div>
+    </div>
+</body>
+</html>
